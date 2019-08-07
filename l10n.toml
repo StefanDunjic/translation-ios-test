@@ -15,8 +15,8 @@ branches = [
 [env]
 
 [[paths]]
-  reference = "TranslationTest/TranslationTest/Resources/Localizable/en.lproj/Localizable.strings"
-  l10n = "TranslationTest/TranslationTest/Resources/Localizable/{locale}.lproj/Localizable.strings"
+  reference = "TranslationTest/Resources/Localizable/en.lproj/Localizable.strings"
+  l10n = "TranslationTest/Resources/Localizable/{locale}.lproj/Localizable.strings"
   locales = [
       "es",
       "ru",
