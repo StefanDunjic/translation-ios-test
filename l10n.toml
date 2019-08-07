@@ -1,0 +1,24 @@
+basepath = "."
+
+locales = [
+    "es",
+    "ru",
+    "sr"
+]
+
+# Expose the following branches to localization
+# Changes to this list should be announced to the l10n team ahead of time.
+branches = [
+    "master",
+]
+
+[env]
+
+[[paths]]
+  reference = "TranslationTest/TranslationTest/Resources/Localizable/en.lproj/Localizable.strings"
+  l10n = "TranslationTest/TranslationTest/Resources/Localizable/{locale}.lproj/Localizable.strings"
+  locales = [
+      "es",
+      "ru",
+      "sr",
+  ]
